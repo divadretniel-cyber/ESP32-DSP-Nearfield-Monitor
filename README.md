@@ -33,10 +33,15 @@ The UI also features an auto EQ function, where a REW file can be pasted and aut
 Then individial filters can be applied to each of the 4 outputs, or their phase can be flipped.
 At the end the main volume can be set.
 Its not necessary to use this firmware, you can design your own.
+As you may recognize the firmware and gui html was written with claude code.
 
 the html with the ui: https://github.com/divadretniel-cyber/ESP32-DSP-Nearfield-Monitor/blob/main/WEB-UI/index.html
+
 Drawing of the Speaker, the br ports and the volume for the coax speaker are 3D printed.
-![Drawing](Pictures/SpeakerInside.jpg)
+![Drawing](Pictures/SpeakerInside.jpg).
+
+Measurement after calibration:
+![Measurement in REW](Pictures/Measurement.jpg)
 
 Here are example pics of the UI:
 ![Routing + Global EQ](Pictures/Routing+EQ.jpg)
