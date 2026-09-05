@@ -34,7 +34,7 @@ Then individial filters can be applied to each of the 4 outputs, or their phase 
 At the end the main volume can be set.
 Its not necessary to use this firmware, you can design your own.
 
-the html with the ui: (WEB-UI/index.html)
+the html with the ui: [(WEB-UI/index.html)](https://github.com/divadretniel-cyber/ESP32-DSP-Nearfield-Monitor/blob/main/WEB-UI/index.html)
 Here are example pics of the UI:
 ![Routing + Global EQ](Pictures/Routing+EQ.jpg)
 ![Per channel filter](Pictures/ChannelEQ.jpg)
