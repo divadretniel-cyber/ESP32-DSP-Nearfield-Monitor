@@ -4,6 +4,9 @@ This project is studio monitor with a DSP amplifier board, based on an esp32-S3.
 
 ![PCB ](Pictures/SPK_Front.jpg)
 
+A compact 302*218*184 mm speaker with linear frequency response and wide frequency range.
+Frequency response linear __+-1.5dB down to 35Hz__ after dsp correction.
+  
 A 2 channel ADC converts the incoming Differential signals to an I2S stream, the ESP32S3 then acts as DSP and splits the I2S stream to 2 Amplifier chips with digital input, so they are also the DAC.
 There are 2 different versions of the firmware. 
 * Version 1 WIFI - Control: control the parameters via wifi. The esp32 generates a wifi access point, after connecting to it it opens your browser where you can set the DSP parameters.
@@ -18,6 +21,7 @@ Speakers used:
   https://loudspeakerdatabase.com/SICA/5,5C1,5CP
 
 Electronics:
+* 120W Gan power supply set to 24V - https://ko.aliexpress.com/item/1005011912930487.html
 * ADC: TLV320ADC6120 - A high performance ADC with a snr of 123dB, and THD+N of -95dB and it can be controlled over i2c
   https://www.ti.com/lit/ds/symlink/tlv320adc6120.pdf?ts=1788514452765
 * MCU: ESP32-S3-WROOM-1U-N16R8 - ESP32S3 module with antenna connector, so an external antenna can be used for better wifi range. But the board features also a cutout, so a WROOM module with integrated antenna can be used too.
@@ -42,6 +46,12 @@ Drawing of the Speaker, the br ports and the volume for the coax speaker are 3D 
 
 Measurement after calibration:
 ![Measurement in REW](Pictures/Measurement.jpg)
+
+Construction was done in 14mm Mdf and printed parts.
+The amplifier board is mounted on a 2mm aluminum plate, with a heat conductive pad between the board and the plate.
+The drawing is in this repo and also the stl files for printing.
+
+![Plate with board and amp](Pictures/IMG.jpg)
 
 Here are example pics of the UI:
 ![Routing + Global EQ](Pictures/Routing+EQ.jpg)
