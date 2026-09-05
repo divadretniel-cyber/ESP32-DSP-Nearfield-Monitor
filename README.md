@@ -42,18 +42,23 @@ As you may recognize the firmware and gui html was written with claude code.
 the html with the ui: https://github.com/divadretniel-cyber/ESP32-DSP-Nearfield-Monitor/blob/main/WEB-UI/index.html
 
 Drawing of the Speaker, the br ports and the volume for the coax speaker are 3D printed.
+
 ![Drawing](Pictures/SpeakerInside.jpg).
 
 Measurement after calibration:
+
 ![Measurement in REW](Pictures/Measurement.jpg)
 
 Construction was done in 14mm Mdf and printed parts.
 The amplifier board is mounted on a 2mm aluminum plate, with a heat conductive pad between the board and the plate.
 The drawing is in this repo and also the stl files for printing.
 
+Aluminum plate with mounted parts:
+
 ![Plate with board and amp](Pictures/IMG.jpg)
 
 Here are example pics of the UI:
+
 ![Routing + Global EQ](Pictures/Routing+EQ.jpg)
 ![Per channel filter](Pictures/ChannelEQ.jpg)
 ![Auto EQ](Pictures/AutoEQ.jpg)
