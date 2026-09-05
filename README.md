@@ -2,18 +2,22 @@
 
 A studio monitor with a DSP amplifier board, based on an esp32-S3.
 
-
 ![PCB ](Pictures/SPK_Front.jpg)
 
-A compact 302*218*184 mm speaker with linear frequency response and wide frequency range.
+# Capabilities
+
+A compact 302 x 218 x 184 mm speaker with linear frequency response and wide frequency range.
 Frequency response linear __+-1.5dB down to 35Hz__ after dsp correction.
   
-A 2 channel ADC converts the incoming Differential signals to an I2S stream, the ESP32S3 then acts as DSP and splits the I2S stream to 2 Amplifier chips with digital input, so they are also the DAC.
+A 2 channel ADC converts the incoming Differential signals to an I2S stream, the ESP32S3 then acts as DSP and splits the I2S stream to 2 Amplifier chips with digital input,
+so they have the DAC integrated.
+
 There are 2 different versions of the firmware. 
 * Version 1 WIFI - Control: control the parameters via wifi. The esp32 generates a wifi access point, after connecting to it it opens your browser where you can set the DSP parameters.
 * Version 2 USB - Control: control the parameters over usb. Just connect the board to a pc, open a browser like chrome, and open the html, there is a connect button where you can select the board. When using this version, no antenna is needed.
-
 For a simple control an encoder can be connected, and a WS2812 led shows the wifi state and volume. Also a i2c display can be connected, but at the moment it has no firmware support.
+
+# Parts used
 
 Speakers used:
 * LF Drivers: Peerless SDS-135F25CP02-04
