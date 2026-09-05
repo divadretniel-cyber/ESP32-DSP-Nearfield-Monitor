@@ -33,6 +33,8 @@ The UI also features an auto EQ function, where a REW file can be pasted and aut
 Then individial filters can be applied to each of the 4 outputs, or their phase can be flipped.
 At the end the main volume can be set.
 Its not necessary to use this firmware, you can design your own.
+
+the html with the ui: (WEB-UI/index.html)
 Here are example pics of the UI:
 ![Routing + Global EQ](Pictures/Routing+EQ.jpg)
 ![Per channel filter](Pictures/ChannelEQ.jpg)
