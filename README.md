@@ -1,5 +1,6 @@
 # Nearfield Monitor with ESP32-DSP-4x50W-Amplifier
-This project is studio monitor with a DSP amplifier board, based on an esp32-S3.
+
+A studio monitor with a DSP amplifier board, based on an esp32-S3.
 
 
 ![PCB ](Pictures/SPK_Front.jpg)
