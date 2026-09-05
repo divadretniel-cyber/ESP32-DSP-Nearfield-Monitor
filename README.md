@@ -2,6 +2,8 @@
 This project is a DSP amplifier board, based on an esp32-S3.
 It features 2 analog inputs and 4 50W outputs and the esp32 has multiple DSP functions implemented.
 
+![PCB ](Pictures/PCB_ESP.jpg)
+
 A 2 channel ADC converts the incoming Differential signals to an I2S stream, the ESP32S3 then acts as DSP and splits the I2S stream to 2 Amplifier chips with digital input, so they are also the DAC.
 There are 2 different versions of the firmware. 
 * Version 1 WIFI - Control: control the parameters via wifi. The esp32 generates a wifi acces point, after connecting to it it opens your browser where you can set the DSP parameters.
