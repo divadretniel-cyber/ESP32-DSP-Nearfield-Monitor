@@ -63,7 +63,7 @@ Aluminum plate with mounted parts:
 
 ![Plate with board and amp](Pictures/IMG.jpg)
 
-Here are example pics of the UI:
+New UI:
 
 ![Routing + Global EQ](Pictures/Routing+EQ.jpg)
 ![Per channel filter](Pictures/ChannelEQ.jpg)
