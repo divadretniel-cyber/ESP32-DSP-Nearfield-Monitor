@@ -1,6 +1,6 @@
-# Nearfield Monitor with RP2354-DSP-4x50W-Amplifier
+# Nearfield Monitor with ESP32-DSP-4x50W-Amplifier
 
-A studio monitor with a DSP amplifier board, based on an RP2354.
+A studio monitor with a DSP amplifier board, based on an esp32-S3.
 
 ![PCB ](Pictures/SPK_Front.jpg)
 
@@ -9,12 +9,13 @@ A studio monitor with a DSP amplifier board, based on an RP2354.
 A compact 302 x 218 x 184 mm speaker with linear frequency response and wide frequency range.
 Frequency response linear __+-1.5dB down to 35Hz__ after dsp correction.
   
-A 2 channel ADC converts the incoming Differential signals to an I2S stream, the RP2354 then acts as DSP and splits the I2S stream to 2 Amplifier chips with digital input,
+A 2 channel ADC converts the incoming Differential signals to an I2S stream, the ESP32S3 then acts as DSP and splits the I2S stream to 2 Amplifier chips with digital input,
 so they have the DAC integrated.
 
-
-You can control the parameters over usb. Just connect the board to a pc, open a browser like chrome or firefox, and open the html, there is a connect button where you can select the board.
-The Encoder and SSD1306 provide a simple gui to control basic settings.
+There are 2 different versions of the firmware. 
+* Version 1 WIFI - Control: control the parameters via wifi. The esp32 generates a wifi access point, after connecting to it it opens your browser where you can set the DSP parameters.
+* Version 2 USB - Control: control the parameters over usb. Just connect the board to a pc, open a browser like chrome, and open the html, there is a connect button where you can select the board. When using this version, no antenna is needed.
+For a simple control an encoder can be connected, and a WS2812 led shows the wifi state and volume. Also a i2c display can be connected, but at the moment it has no firmware support.
 
 # Parts used
 
@@ -28,8 +29,8 @@ Electronics:
 * 120W Gan power supply set to 24V - https://ko.aliexpress.com/item/1005011912930487.html
 * ADC: TLV320ADC6120 - A high performance ADC with a snr of 123dB, and THD+N of -95dB and it can be controlled over i2c
   https://www.ti.com/lit/ds/symlink/tlv320adc6120.pdf?ts=1788514452765
-* MCU: RP2354
-  https://pip-assets.raspberrypi.com/categories/1214-rp2350/documents/RP-008373-DS-3-rp2350-datasheet.pdf
+* MCU: ESP32-S3-WROOM-1U-N16R8 - ESP32S3 module with antenna connector, so an external antenna can be used for better wifi range. But the board features also a cutout, so a WROOM module with integrated antenna can be used too.
+  https://documentation.espressif.com/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf
 * AMP: 2x TAS5827 - Integrated I2S in Class D amplifier with 2x50W output. Also controllable via i2c. 
   https://www.ti.com/lit/ds/symlink/tas5827.pdf?ts=1788540720289&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTAS5827%252Fpart-details%252FTAS5827RHBR
 
@@ -44,7 +45,7 @@ Its not necessary to use this firmware, you can design your own.
 
 As you may recognize the firmware and gui html was written with claude code.
 
-the html with the ui: https://github.com/divadretniel-cyber/ESP32-DSP-Nearfield-Monitor/blob/main/USB-UI/WEB-UI.html
+the html with the ui: https://github.com/divadretniel-cyber/ESP32-DSP-Nearfield-Monitor/blob/main/WEB-UI/index.html
 
 Drawing of the Speaker, the br ports and the volume for the coax speaker are 3D printed.
 
@@ -62,9 +63,11 @@ Aluminum plate with mounted parts:
 
 ![Plate with board and amp](Pictures/IMG.jpg)
 
-Here are example pics of the UI:
+New UI:
 
-
+![Routing + Global EQ](Pictures/Routing+EQ.jpg)
+![Per channel filter](Pictures/ChannelEQ.jpg)
+![Auto EQ](Pictures/AutoEQ.jpg)
 
 
 
