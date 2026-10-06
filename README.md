@@ -7,7 +7,7 @@ old ESP32 based version here:
 https://github.com/divadretniel-cyber/ESP32-DSP-Nearfield-Monitor
 
 ![PCB ](Pictures/SPK_Front.jpg)
-
+![Back](Pictures/Full.jpg)
 # Capabilities
 
 A compact 302 x 218 x 184 mm speaker with linear frequency response and wide frequency range.
