@@ -44,7 +44,7 @@ Its not necessary to use this firmware, you can design your own.
 
 As you may recognize the firmware and gui html was written with claude code.
 
-the html with the ui: https://github.com/divadretniel-cyber/ESP32-DSP-Nearfield-Monitor/blob/main/WEB-UI/index.html
+the html with the ui: https://github.com/divadretniel-cyber/ESP32-DSP-Nearfield-Monitor/blob/main/USB-UI/WEB-UI.html
 
 Drawing of the Speaker, the br ports and the volume for the coax speaker are 3D printed.
 
@@ -64,9 +64,7 @@ Aluminum plate with mounted parts:
 
 Here are example pics of the UI:
 
-![Routing + Global EQ](Pictures/Routing+EQ.jpg)
-![Per channel filter](Pictures/ChannelEQ.jpg)
-![Auto EQ](Pictures/AutoEQ.jpg)
+
 
 
 
