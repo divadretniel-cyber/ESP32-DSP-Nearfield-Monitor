@@ -57,11 +57,13 @@ Construction was done in 14mm Mdf and printed parts.
 The amplifier board is mounted on a 3mm aluminum plate, with a heat conductive pad between the board and the plate.
 The drawing is in this repo and also the stl files for printing.
 
-![Presets](Pictures/Parts.jpg)
+![Board](Pictures/AMP_Description.jpg)
+
+![Parts](Pictures/Parts.jpg)
 
 mounted parts:
 
-![Presets](Pictures/Assembled.jpg)
+![Assembled](Pictures/Assembled.jpg)
 
 New UI:
 
