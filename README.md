@@ -1,7 +1,8 @@
 # Nearfield Monitor with RP2354-DSP-4x50W-Amplifier
 
 
-A studio monitor with a DSP amplifier board, based on an RP2354.
+A studio monitor with a DSP amplifier board, based on an RP2354. 
+ 
 old ESP32 based version here:
 https://github.com/divadretniel-cyber/ESP32-DSP-Nearfield-Monitor
 
