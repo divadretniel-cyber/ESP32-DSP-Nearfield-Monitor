@@ -59,14 +59,14 @@ The drawing is in this repo and also the stl files for printing.
 
 Aluminum plate with mounted parts:
 
-![Plate with board and amp](Pictures/IMG.jpg)
+![Plate with board and amp](Pictures/Assembled.jpg)
 
 New UI:
 
-![Routing and imput select](Routing.jpg)
-![EQ](EQ.jpg)
+![Routing and imput select](Pictures/Routing.jpg)
+![EQ](Pictures/EQ.jpg)
 ![Auto EQ](Pictures/Auto_EQ.jpg)
-![Per channel EQ](Out_EQ.jpg)
-![Level view](Levels.jpg)
-![Presets](Presets.jpg)
+![Per channel EQ](Pictures/Out_EQ.jpg)
+![Level view](Pictures/Levels.jpg)
+![Presets](Pictures/Presets.jpg)
 
