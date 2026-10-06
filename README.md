@@ -63,9 +63,10 @@ Aluminum plate with mounted parts:
 
 New UI:
 
-![Routing + Global EQ](Pictures/Routing+EQ.jpg)
-![Per channel filter](Pictures/ChannelEQ.jpg)
-![Auto EQ](Pictures/AutoEQ.jpg)
-
-
+![Routing and imput select](Routing.jpg)
+![EQ](EQ.jpg)
+![Auto EQ](Pictures/Auto_EQ.jpg)
+![Per channel EQ](Out_EQ.jpg)
+![Level view](Levels.jpg)
+![Presets](Presets.jpg)
 
