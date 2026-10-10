@@ -36,6 +36,9 @@ Electronics:
 * AMP: 2x TAS5827 - Integrated I2S in Class D amplifier with 2x50W output. Also controllable via i2c. 
   https://www.ti.com/lit/ds/symlink/tas5827.pdf?ts=1788540720289&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTAS5827%252Fpart-details%252FTAS5827RHBR
 
+The project is now on OSHWLAB:
+https://oshwlab.com/divad.retniel/project_xhcjgfaj
+
 # Usage
 The UI lets you route the 2 inputs to the 4 outputs like you want.
 Next part is the global EQ, that means it will be applied to all outputs.
